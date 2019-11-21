@@ -1,7 +1,18 @@
 # Data for SAMPL6 Part II paper
 [![DOI](https://zenodo.org/badge/223044465.svg)](https://zenodo.org/badge/latestdoi/223044465)
 
+- **data**: The latest archived version of the data can be found on
+  Zenodo by following the DOI on the badge. If you want to refer to
+  the data over all versions use DOI
+  [10.5281/zenodo.3549988](https://doi.org/10.5281/zenodo.3549988).
+- **paper**: (add full citation when available)
 
+  Shujie Fan, Bogdan I. Iorga, Oliver Beckstein. _Prediction of octanol-water
+  partition coefficients for the SAMPL6-logP molecules using molecular dynamics
+  simulations with OPLS-AA, AMBER and CHARMM force fields_. J Computer-Aided
+  Molecular Design (2019).
+
+## Background
 
 The [SAMPL6 (Part II) logP
 Challenge](https://github.com/MobleyLab/SAMPL6/blob/master/logP_challenge_instructions.md)
