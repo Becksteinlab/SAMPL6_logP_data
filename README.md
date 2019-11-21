@@ -1,3 +1,8 @@
+# Data for SAMPL6 Part II paper
+[![DOI](https://zenodo.org/badge/223044465.svg)](https://zenodo.org/badge/latestdoi/223044465)
+
+
+
 The [SAMPL6 (Part II) logP
 Challenge](https://github.com/MobleyLab/SAMPL6/blob/master/logP_challenge_instructions.md)
 consists of predicting the octanol-water partition coefficients (log
@@ -12,7 +17,7 @@ using molecular dynamics simulations with OPLS-AA, AMBER and CHARMM
 force fields_ in the SAMPL6 Special Issue of the Journal of
 Computer-Aided Molecular Design. 
 
-# Input files
+## Input files
 
 Topology input files for Gromacs 2018 are provided in the `02_top` directory
 and its subdirectories for the different compounds and force fields. 
@@ -22,7 +27,7 @@ Simulations were set up and managed with
 version, equivalent to commit
 20152ad9723fa5ad9d039362233da07b5fa7811a).
 
-# SAMPL6 submission
+## SAMPL6 submission
 
 - Directory `03_prep_submission` contains scripts to generate the
   submission files from Google Sheets (which we used for aggregating
@@ -45,7 +50,7 @@ version, equivalent to commit
 - Directory `06_data` contains the same data but organized by force
   field and molecule.
 
-# Improved protocol
+## Improved protocol
 
 The paper discusses improvements to our protocol. The data for these
 calculations can be found in directory `07_alchemlyb_results`.
