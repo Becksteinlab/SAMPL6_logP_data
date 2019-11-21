@@ -1,0 +1,80 @@
+1 : input pdb SMILES : C1=CC=C(C=C1)CNC2=C3C(=NC=N2)C=CC=C3
+; Script arguments : SM07_micro004.mol2 "15 0.664" "10 -0.492" "9 0.864" "7 0.195"
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass 
+
+       1  opls_145      1      UNK        C1         11    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       2  opls_145      1      UNK        C2         13    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       3  opls_145      1      UNK        C3         15    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       4  opls_145      1      UNK        C4          7    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       5  opls_145      1      UNK        C5         17    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       6  opls_145      1      UNK        C6         19    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       7  opls_907      1      UNK        C7          1     0.195   12.01100 ; CT # CH2(N) secondary aliphatic amines, aziridine  C2,C3H ### user-defined atom charge (0.195)
+       8  opls_901      1      UNK        N8          1    -0.780   14.00670 ; NT # N secondary amines, aziridine N1 
+       9  opls_532      1      UNK        C9          5     0.864   12.01100 ; CA # C4  in pyrimidine ### user-defined atom charge (0.864)
+      10  opls_533      1      UNK       C10          5    -0.492   12.01100 ; CA # C5  in pyrimidine ### user-defined atom charge (-0.492)
+      11  opls_145      1      UNK       C11         21    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      12  opls_145      1      UNK       C12         23    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      13  opls_145      1      UNK       C13         25    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      14  opls_145      1      UNK       C14         27    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      15  opls_532      1      UNK       C15          5     0.664   12.01100 ; CA # C4  in pyrimidine ### user-defined atom charge (0.664)
+      16  opls_530      1      UNK       N16          5    -0.839   14.00670 ; NC # N   in pyrimidine
+      17  opls_531      1      UNK       C17          3     0.874   12.01100 ; CQ # C2  in pyrimidine
+      18  opls_530      1      UNK       N18          5    -0.839   14.00670 ; NC # N   in pyrimidine
+      19  opls_146      1      UNK       H19         11     0.115    1.00800 ; HA # Benzene H - 12 site.
+      20  opls_146      1      UNK       H20         13     0.115    1.00800 ; HA # Benzene H - 12 site.
+      21  opls_146      1      UNK       H21         15     0.115    1.00800 ; HA # Benzene H - 12 site.
+      22  opls_146      1      UNK       H22         17     0.115    1.00800 ; HA # Benzene H - 12 site.
+      23  opls_146      1      UNK       H23         19     0.115    1.00800 ; HA # Benzene H - 12 site.
+      24  opls_911      1      UNK       H24          1     0.060    1.00800 ; HC # H(C) for C bonded to N in amines, diamines (aziridine H2,H3)
+      25  opls_911      1      UNK       H25          1     0.060    1.00800 ; HC # H(C) for C bonded to N in amines, diamines (aziridine H2,H3)
+      26  opls_910      1      UNK       H26          1     0.380    1.00800 ; H # H(N)   secondary amines
+      27  opls_146      1      UNK       H27         21     0.115    1.00800 ; HA # Benzene H - 12 site.
+      28  opls_146      1      UNK       H28         23     0.115    1.00800 ; HA # Benzene H - 12 site.
+      29  opls_146      1      UNK       H29         25     0.115    1.00800 ; HA # Benzene H - 12 site.
+      30  opls_146      1      UNK       H30         27     0.115    1.00800 ; HA # Benzene H - 12 site.
+      31  opls_534      1      UNK       H31          3    -0.032    1.00800 ; HA # H2  in pyrimidine
+; Total charge : -0.000 ### Number of unassigned atoms : 0/31
+
+Reordered .itp atoms ...
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass
+       1  opls_907      1      UNK        C7          1     0.195   12.01100 ; CT # CH2(N) secondary aliphatic amines, aziridine  C2,C3H ### user-defined atom charge (0.195)
+       2  opls_901      1      UNK        N8          1    -0.780   14.00670 ; NT # N secondary amines, aziridine N1 
+       3  opls_911      1      UNK       H24          1     0.060    1.00800 ; HC # H(C) for C bonded to N in amines, diamines (aziridine H2,H3)
+       4  opls_911      1      UNK       H25          1     0.060    1.00800 ; HC # H(C) for C bonded to N in amines, diamines (aziridine H2,H3)
+       5  opls_910      1      UNK       H26          1     0.380    1.00800 ; H # H(N)   secondary amines
+       6  opls_531      1      UNK       C17          3     0.874   12.01100 ; CQ # C2  in pyrimidine
+       7  opls_534      1      UNK       H31          3    -0.032    1.00800 ; HA # H2  in pyrimidine
+       8  opls_532      1      UNK        C9          5     0.864   12.01100 ; CA # C4  in pyrimidine ### user-defined atom charge (0.864)
+       9  opls_533      1      UNK       C10          5    -0.492   12.01100 ; CA # C5  in pyrimidine ### user-defined atom charge (-0.492)
+      10  opls_532      1      UNK       C15          5     0.664   12.01100 ; CA # C4  in pyrimidine ### user-defined atom charge (0.664)
+      11  opls_530      1      UNK       N16          5    -0.839   14.00670 ; NC # N   in pyrimidine
+      12  opls_530      1      UNK       N18          5    -0.839   14.00670 ; NC # N   in pyrimidine
+      13  opls_145      1      UNK        C4          7    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      14  opls_145      1      UNK        C1         11    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      15  opls_146      1      UNK       H19         11     0.115    1.00800 ; HA # Benzene H - 12 site.
+      16  opls_145      1      UNK        C2         13    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      17  opls_146      1      UNK       H20         13     0.115    1.00800 ; HA # Benzene H - 12 site.
+      18  opls_145      1      UNK        C3         15    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      19  opls_146      1      UNK       H21         15     0.115    1.00800 ; HA # Benzene H - 12 site.
+      20  opls_145      1      UNK        C5         17    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      21  opls_146      1      UNK       H22         17     0.115    1.00800 ; HA # Benzene H - 12 site.
+      22  opls_145      1      UNK        C6         19    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      23  opls_146      1      UNK       H23         19     0.115    1.00800 ; HA # Benzene H - 12 site.
+      24  opls_145      1      UNK       C11         21    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      25  opls_146      1      UNK       H27         21     0.115    1.00800 ; HA # Benzene H - 12 site.
+      26  opls_145      1      UNK       C12         23    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      27  opls_146      1      UNK       H28         23     0.115    1.00800 ; HA # Benzene H - 12 site.
+      28  opls_145      1      UNK       C13         25    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      29  opls_146      1      UNK       H29         25     0.115    1.00800 ; HA # Benzene H - 12 site.
+      30  opls_145      1      UNK       C14         27    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      31  opls_146      1      UNK       H30         27     0.115    1.00800 ; HA # Benzene H - 12 site.
+; Total charge : -0.000 ### Number of unassigned atoms : 0/31
+
+Processing bonds ...
+Processing angles ...
+Processing proper dihedrals ...
+Processing improper dihedrals ...
+Processing pairs ...
+Processing restraints ...

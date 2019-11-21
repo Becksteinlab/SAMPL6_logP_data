@@ -1,0 +1,386 @@
+; input pdb SMILES : CC2=CC1=C(C(=C([NH]=C1C=C2)O)CC(=O)[O])C3=CC=CC=C3
+; Script arguments : SM08_micro008.mol2 "2 opls_145" "3 opls_145" "4 opls_145" "7 opls_145" "27 opls_146" "28 opls_146" "29 opls_146" "13 opls_167" "30 opls_168" "12 opls_289 0.090" "11 opls_520 0.170" "5 opls_145 0.230" "10 opls_145 0.380" "6 opls_145 -0.020" "9 opls_145 -0.240" "8 opls_145 0.320" "18 opls_147" "14 0.000"
+
+[ moleculetype ]
+; Name      nrexcl
+UNK              3
+
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass
+       1  opls_274      1      UNK       C14          1     0.000   12.01100 ; CT # C: CH2, carboxylate ion ### user-defined atom charge (0.000)
+       2  opls_271      1      UNK       C15          1     0.700   12.01100 ; C_3 # C in COO- carboxylate
+       3  opls_272      1      UNK       O16          1    -0.800   15.99940 ; O2 # O: O in COO- carboxylate,peptide terminus
+       4  opls_272      1      UNK       O17          1    -0.800   15.99940 ; O2 # O: O in COO- carboxylate,peptide terminus
+       5  opls_140      1      UNK       H31          1     0.060    1.00800 ; HC # alkane H.
+       6  opls_140      1      UNK       H32          1     0.060    1.00800 ; HC # alkane H.
+       7  opls_145      1      UNK        C7          3    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145)
+       8  opls_146      1      UNK       H29          3     0.115    1.00800 ; HA # Benzene H - 12 site. ### user-defined OPLS atom type (opls_146)
+       9  opls_145      1      UNK        C3          4    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145)
+      10  opls_146      1      UNK       H27          4     0.115    1.00800 ; HA # Benzene H - 12 site. ### user-defined OPLS atom type (opls_146)
+      11  opls_145      1      UNK        C4          5    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145)
+      12  opls_146      1      UNK       H28          5     0.115    1.00800 ; HA # Benzene H - 12 site. ### user-defined OPLS atom type (opls_146)
+      13  opls_145      1      UNK       C10          6     0.380   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145) atom charge (0.380)
+      14  opls_145      1      UNK        C9          7    -0.240   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145) atom charge (-0.240)
+      15  opls_145      1      UNK        C8          8     0.320   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145) atom charge (0.320)
+      16  opls_145      1      UNK        C2          9    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145)
+      17  opls_145      1      UNK        C5         10     0.230   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145) atom charge (0.230)
+      18  opls_145      1      UNK        C6         10    -0.020   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl ### user-defined OPLS atom type (opls_145) atom charge (-0.020)
+      19  opls_520      1      UNK       N11         10     0.170   14.00670 ; NC # N   in pyridine 6-31G* ### user-defined OPLS atom type (opls_520) atom charge (0.170)
+      20  opls_148      1      UNK        C1         11    -0.065   12.01100 ; CT # C: CH3, toluene
+      21  opls_140      1      UNK       H24         11     0.060    1.00800 ; HC # alkane H.
+      22  opls_140      1      UNK       H25         11     0.060    1.00800 ; HC # alkane H.
+      23  opls_140      1      UNK       H26         11     0.060    1.00800 ; HC # alkane H.
+      24  opls_145      1      UNK       C19         23    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      25  opls_146      1      UNK       H33         23     0.115    1.00800 ; HA # Benzene H - 12 site.
+      26  opls_145      1      UNK       C20         25    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      27  opls_146      1      UNK       H34         25     0.115    1.00800 ; HA # Benzene H - 12 site.
+      28  opls_145      1      UNK       C21         27    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      29  opls_146      1      UNK       H35         27     0.115    1.00800 ; HA # Benzene H - 12 site.
+      30  opls_145      1      UNK       C22         29    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      31  opls_146      1      UNK       H36         29     0.115    1.00800 ; HA # Benzene H - 12 site.
+      32  opls_145      1      UNK       C23         31    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      33  opls_146      1      UNK       H37         31     0.115    1.00800 ; HA # Benzene H - 12 site.
+      34  opls_289      1      UNK       H12         33     0.090    1.00800 ; H3 # H (NH4+)  JPC,90,2174 (1986)   ### user-defined OPLS atom type (opls_289) atom charge (0.090)
+      35  opls_167      1      UNK       O13         33    -0.585   15.99940 ; OH # O     phenol  atom C, H 145 & 146 ### user-defined OPLS atom type (opls_167)
+      36  opls_147      1      UNK       C18         33     0.000   12.01100 ; CA # Naphthalene fusion C (C9) ### user-defined OPLS atom type (opls_147)
+      37  opls_168      1      UNK       H30         33     0.435    1.00800 ; HO # H     phenol   ### user-defined OPLS atom type (opls_168)
+; Total charge : 0.000 ### Number of unassigned atoms : 0/37
+
+[ bonds ]
+; ai   aj  funct  r  k
+  20   16      1  ; CT-CA # (CA-CT)  PHE,TYR
+  20   21      1  ; CT-HC # CHARMM 22 parameter file
+  20   22      1  ; CT-HC # CHARMM 22 parameter file
+  20   23      1  ; CT-HC # CHARMM 22 parameter file
+  16    7      1  ; CA-CA # TRP,TYR,PHE
+  16    9      1  ; CA-CA # TRP,TYR,PHE
+   9   11      1  ; CA-CA # TRP,TYR,PHE
+   9   10      1  ; CA-HA # PHE, etc.
+  11   17      1  ; CA-CA # TRP,TYR,PHE
+  11   12      1  ; CA-HA # PHE, etc.
+  17   19      1  ; CA-NC # ADE,GUA,CYT
+  17   18      1  ; CA-CA # TRP,TYR,PHE
+  18    7      1  ; CA-CA # TRP,TYR,PHE
+  18   15      1  ; CA-CA # TRP,TYR,PHE
+   7    8      1  ; CA-HA # PHE, etc.
+  15   14      1  ; CA-CA # TRP,TYR,PHE
+  15   36      1  ; CA-CA # TRP,TYR,PHE
+  14   13      1  ; CA-CA # TRP,TYR,PHE
+  14    1      1  ; CA-CT # PHE,TYR
+  13   19      1  ; CA-NC # ADE,GUA,CYT
+  13   35      1  ; CA-OH # 
+  19   34      1  0.10100 363171.2 ; NC-H3 # (H3-NC)    by analogy from H-NA : URA,GUA,HIS
+  35   37      1  ; OH-HO # (HO-OH)  SUG(OL) wlj mod 0.96-> 0.945
+   1    2      1  ; CT-C_3 # (C_3-CT)  
+   1    5      1  ; CT-HC # CHARMM 22 parameter file
+   1    6      1  ; CT-HC # CHARMM 22 parameter file
+   2    3      1  ; C_3-O2 # GLU,ASP
+   2    4      1  ; C_3-O2 # GLU,ASP
+  36   32      1  ; CA-CA # TRP,TYR,PHE
+  36   24      1  ; CA-CA # TRP,TYR,PHE
+  24   26      1  ; CA-CA # TRP,TYR,PHE
+  24   25      1  ; CA-HA # PHE, etc.
+  26   28      1  ; CA-CA # TRP,TYR,PHE
+  26   27      1  ; CA-HA # PHE, etc.
+  28   30      1  ; CA-CA # TRP,TYR,PHE
+  28   29      1  ; CA-HA # PHE, etc.
+  30   32      1  ; CA-CA # TRP,TYR,PHE
+  30   31      1  ; CA-HA # PHE, etc.
+  32   33      1  ; CA-HA # PHE, etc.
+
+[ angles ]
+; ai   aj   ak  funct  theta   cth
+  16   20   21      1  ; CA-CT-HC # 
+  16   20   22      1  ; CA-CT-HC # 
+  16   20   23      1  ; CA-CT-HC # 
+  21   20   22      1  ; HC-CT-HC # CHARMM 22 parameter file
+  21   20   23      1  ; HC-CT-HC # CHARMM 22 parameter file
+  22   20   23      1  ; HC-CT-HC # CHARMM 22 parameter file
+  20   16    7      1  ; CT-CA-CA # (CA-CA-CT)  PHE(OL)
+  20   16    9      1  ; CT-CA-CA # (CA-CA-CT)  PHE(OL)
+   9   16    7      1  ; CA-CA-CA # PHE(OL)
+  16    9   11      1  ; CA-CA-CA # PHE(OL)
+  16    9   10      1  ; CA-CA-HA # 
+  11    9   10      1  ; CA-CA-HA # 
+   9   11   17      1  ; CA-CA-CA # PHE(OL)
+   9   11   12      1  ; CA-CA-HA # 
+  17   11   12      1  ; CA-CA-HA # 
+  11   17   19      1  ; CA-CA-NC # wlj        -idem-
+  11   17   18      1  ; CA-CA-CA # PHE(OL)
+  18   17   19      1  ; CA-CA-NC # wlj        -idem-
+  17   18    7      1  ; CA-CA-CA # PHE(OL)
+  17   18   15      1  ; CA-CA-CA # PHE(OL)
+   7   18   15      1  ; CA-CA-CA # PHE(OL)
+  16    7   18      1  ; CA-CA-CA # PHE(OL)
+  16    7    8      1  ; CA-CA-HA # 
+  18    7    8      1  ; CA-CA-HA # 
+  18   15   14      1  ; CA-CA-CA # PHE(OL)
+  18   15   36      1  ; CA-CA-CA # PHE(OL)
+  14   15   36      1  ; CA-CA-CA # PHE(OL)
+  15   14   13      1  ; CA-CA-CA # PHE(OL)
+  15   14    1      1  ; CA-CA-CT # PHE(OL)
+  13   14    1      1  ; CA-CA-CT # PHE(OL)
+  14   13   19      1  ; CA-CA-NC # wlj        -idem-
+  14   13   35      1  ; CA-CA-OH # 
+  19   13   35      1  120.000 585.760 ; NC-CA-OH #  by analogy from CA-CA-OH
+  17   19   13      1  ; CA-NC-CA # wlj        -idem-  
+  17   19   34      1  118.000 292.880 ; CA-NC-H3 #  by analogy from CA-NA-H : GUA
+  13   19   34      1  118.000 292.880 ; CA-NC-H3 #  by analogy from CA-NA-H : GUA
+  13   35   37      1  ; CA-OH-HO # 
+  14    1    2      1  ; CA-CT-C_3 # wlj
+  14    1    5      1  ; CA-CT-HC # 
+  14    1    6      1  ; CA-CT-HC # 
+   2    1    5      1  ; C_3-CT-HC # 
+   2    1    6      1  ; C_3-CT-HC # 
+   5    1    6      1  ; HC-CT-HC # CHARMM 22 parameter file
+   1    2    3      1  ; CT-C_3-O2 # GLU(OL)     SCH JPC 79,2379
+   1    2    4      1  ; CT-C_3-O2 # GLU(OL)     SCH JPC 79,2379
+   3    2    4      1  ; O2-C_3-O2 # GLU(OL)      SCH JPC 79,2379
+  15   36   32      1  ; CA-CA-CA # PHE(OL)
+  15   36   24      1  ; CA-CA-CA # PHE(OL)
+  24   36   32      1  ; CA-CA-CA # PHE(OL)
+  36   24   26      1  ; CA-CA-CA # PHE(OL)
+  36   24   25      1  ; CA-CA-HA # 
+  26   24   25      1  ; CA-CA-HA # 
+  24   26   28      1  ; CA-CA-CA # PHE(OL)
+  24   26   27      1  ; CA-CA-HA # 
+  28   26   27      1  ; CA-CA-HA # 
+  26   28   30      1  ; CA-CA-CA # PHE(OL)
+  26   28   29      1  ; CA-CA-HA # 
+  30   28   29      1  ; CA-CA-HA # 
+  28   30   32      1  ; CA-CA-CA # PHE(OL)
+  28   30   31      1  ; CA-CA-HA # 
+  32   30   31      1  ; CA-CA-HA # 
+  36   32   30      1  ; CA-CA-CA # PHE(OL)
+  36   32   33      1  ; CA-CA-HA # 
+  30   32   33      1  ; CA-CA-HA # 
+
+[ dihedrals ]
+; ai   aj   ak   al  funct   C0  ...  C5
+  21   20   16    7      3     ; HC-CT-CA-CA # (CA-CA-CT-HC)  ethyl benzene
+  21   20   16    9      3     ; HC-CT-CA-CA # (CA-CA-CT-HC)  ethyl benzene
+  22   20   16    7      3     ; HC-CT-CA-CA # (CA-CA-CT-HC)  ethyl benzene
+  22   20   16    9      3     ; HC-CT-CA-CA # (CA-CA-CT-HC)  ethyl benzene
+  23   20   16    7      3     ; HC-CT-CA-CA # (CA-CA-CT-HC)  ethyl benzene
+  23   20   16    9      3     ; HC-CT-CA-CA # (CA-CA-CT-HC)  ethyl benzene
+  20   16    7   18      3     ; CT-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  20   16    7    8      3     ; CT-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   9   16    7   18      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   9   16    7    8      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  20   16    9   11      3     ; CT-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  20   16    9   10      3     ; CT-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   7   16    9   11      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   7   16    9   10      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  16    9   11   17      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  16    9   11   12      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  10    9   11   17      3     ; HA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  10    9   11   12      3     ; HA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   9   11   17   19      3     ; CA-CA-CA-NC # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   9   11   17   18      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  12   11   17   19      3     ; HA-CA-CA-NC # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  12   11   17   18      3     ; HA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  11   17   19   13      3     ; CA-CA-NC-CA # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  11   17   19   34      3     ; CA-CA-NC-H3 # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  18   17   19   13      3     ; CA-CA-NC-CA # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  18   17   19   34      3     ; CA-CA-NC-H3 # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  11   17   18    7      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  11   17   18   15      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  19   17   18    7      3     ; NC-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  19   17   18   15      3     ; NC-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  17   18    7   16      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  17   18    7    8      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   18    7   16      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   18    7    8      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  17   18   15   14      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  17   18   15   36      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   7   18   15   14      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   7   18   15   36      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  18   15   14   13      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  18   15   14    1      3     ; CA-CA-CA-CT # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  36   15   14   13      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  36   15   14    1      3     ; CA-CA-CA-CT # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  18   15   36   32      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  18   15   36   24      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  14   15   36   32      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  14   15   36   24      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   14   13   19      3     ; CA-CA-CA-NC # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   14   13   35      3     ; CA-CA-CA-OH # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   1   14   13   19      3     ; CT-CA-CA-NC # (X-CA-CA-X generic proper dihedral)  aromatic ring
+   1   14   13   35      3     ; CT-CA-CA-OH # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   14    1    2      3     ; CA-CA-CT-C_3 # (CA-CA-CT-X generic proper dihedral)  ethyl benzene
+  15   14    1    5      3     ; CA-CA-CT-HC # ethyl benzene
+  15   14    1    6      3     ; CA-CA-CT-HC # ethyl benzene
+  13   14    1    2      3     ; CA-CA-CT-C_3 # (CA-CA-CT-X generic proper dihedral)  ethyl benzene
+  13   14    1    5      3     ; CA-CA-CT-HC # ethyl benzene
+  13   14    1    6      3     ; CA-CA-CT-HC # ethyl benzene
+  14   13   19   17      3     ; CA-CA-NC-CA # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  14   13   19   34      3     ; CA-CA-NC-H3 # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  35   13   19   17      3     ; OH-CA-NC-CA # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  35   13   19   34      3     ; OH-CA-NC-H3 # (X-CA-NC-X generic proper dihedral)  aromatic ring
+  14   13   35   37      3     ; CA-CA-OH-HO # phenol all-atom
+  19   13   35   37      3     7.03749 0.00000 -7.03749 0.00000 0.00000 0.00000 ; NC-CA-OH-HO #  by analogy with CA-CA-OH-HO : phenol all-atom
+  14    1    2    3      3     3.43088 0.00000 -3.43088 0.00000 0.00000 0.00000 ; CA-CT-C_3-O2 #  adapted from CT-CT-C_3-O2 : carboxylate ion   
+  14    1    2    4      3     3.43088 0.00000 -3.43088 0.00000 0.00000 0.00000 ; CA-CT-C_3-O2 #  adapted from CT-CT-C_3-O2 : carboxylate ion   
+   5    1    2    3      3     ; HC-CT-C_3-O2 # carboxylate ion
+   5    1    2    4      3     ; HC-CT-C_3-O2 # carboxylate ion
+   6    1    2    3      3     ; HC-CT-C_3-O2 # carboxylate ion
+   6    1    2    4      3     ; HC-CT-C_3-O2 # carboxylate ion
+  15   36   32   30      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   36   32   33      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  24   36   32   30      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  24   36   32   33      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   36   24   26      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  15   36   24   25      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  32   36   24   26      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  32   36   24   25      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  36   24   26   28      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  36   24   26   27      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  25   24   26   28      3     ; HA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  25   24   26   27      3     ; HA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  24   26   28   30      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  24   26   28   29      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  27   26   28   30      3     ; HA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  27   26   28   29      3     ; HA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  26   28   30   32      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  26   28   30   31      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  29   28   30   32      3     ; HA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  29   28   30   31      3     ; HA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  28   30   32   36      3     ; CA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  28   30   32   33      3     ; CA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  31   30   32   36      3     ; HA-CA-CA-CA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+  31   30   32   33      3     ; HA-CA-CA-HA # (X-CA-CA-X generic proper dihedral)  aromatic ring
+
+[ dihedrals ]
+; impropers
+; ai   aj   ak   al  funct  improper
+   7    9   16   20      1  improper_Z_CA_X_Y      ; CA-CA-CA-CT
+  11   10    9   16      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+  17   12   11    9      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+  19   18   17   11      1  improper_Z_CA_X_Y      ; NC-CA-CA-CA
+   7   15   18   17      1  improper_Z_CA_X_Y      ; CA-CA-CA-CA
+  18    8    7   16      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+  14   36   15   18      1  improper_Z_CA_X_Y      ; CA-CA-CA-CA
+  13    1   14   15      1  improper_Z_CA_X_Y      ; CA-CT-CA-CA
+  19   35   13   14      1  improper_Z_CA_X_Y      ; NC-OH-CA-CA
+  13   34   19   17      1  improper_Z_N_X_Y       ; CA-H3-NC-CA
+   1    4    2    3      1  improper_O_C_X_Y       ; CT-O2-C_3-O2
+  32   24   36   15      1  improper_Z_CA_X_Y      ; CA-CA-CA-CA
+  26   25   24   36      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+  28   27   26   24      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+  30   29   28   26      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+  32   31   30   28      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+  30   33   32   36      1  improper_Z_CA_X_Y      ; CA-HA-CA-CA
+
+[ pairs ]
+; ai   aj  funct
+  20   18      1
+  20    8      1
+  20   11      1
+  20   10      1
+  16   17      1
+  16   15      1
+  16   12      1
+   9   21      1
+   9   22      1
+   9   23      1
+   9   18      1
+   9    8      1
+   9   19      1
+  11    7      1
+  11   13      1
+  11   34      1
+  11   15      1
+  17   10      1
+  17   14      1
+  17   35      1
+  17    8      1
+  17   36      1
+  18   12      1
+  18   13      1
+  18   34      1
+  18    1      1
+  18   32      1
+  18   24      1
+   7   21      1
+   7   22      1
+   7   23      1
+   7   10      1
+   7   19      1
+   7   14      1
+   7   36      1
+  15   19      1
+  15    8      1
+  15   35      1
+  15    2      1
+  15    5      1
+  15    6      1
+  15   30      1
+  15   33      1
+  15   26      1
+  15   25      1
+  14   32      1
+  14   24      1
+  14   34      1
+  14   37      1
+  14    3      1
+  14    4      1
+  13   36      1
+  13    2      1
+  13    5      1
+  13    6      1
+  19   12      1
+  19    1      1
+  19   37      1
+  34   35      1
+  35    1      1
+   1   36      1
+   3    5      1
+   3    6      1
+   4    5      1
+   4    6      1
+  36   28      1
+  36   31      1
+  36   27      1
+  24   30      1
+  24   33      1
+  24   29      1
+  26   32      1
+  26   31      1
+  28   25      1
+  28   33      1
+  30   27      1
+  32   25      1
+  32   29      1
+  10   12      1
+  25   27      1
+  27   29      1
+  29   31      1
+  31   33      1
+
+#ifdef POSRES
+[ position_restraints ]
+; atom  type      fx      fy      fz
+    20     1    1000    1000    1000
+    16     1    1000    1000    1000
+     9     1    1000    1000    1000
+    11     1    1000    1000    1000
+    17     1    1000    1000    1000
+    18     1    1000    1000    1000
+     7     1    1000    1000    1000
+    15     1    1000    1000    1000
+    14     1    1000    1000    1000
+    13     1    1000    1000    1000
+    19     1    1000    1000    1000
+    35     1    1000    1000    1000
+     1     1    1000    1000    1000
+     2     1    1000    1000    1000
+     3     1    1000    1000    1000
+     4     1    1000    1000    1000
+    36     1    1000    1000    1000
+    24     1    1000    1000    1000
+    26     1    1000    1000    1000
+    28     1    1000    1000    1000
+    30     1    1000    1000    1000
+    32     1    1000    1000    1000
+#endif
+

@@ -1,0 +1,73 @@
+#Remarks LigParGen generated for Q (by Leela Dodda)
+
+{UNK}
+[atoms]
+       1    C00   C800  -0.1034 
+       2    C01   C801  -0.1492 
+       3    C02   C802  -0.0004 
+       4    C03   C803  -0.1096 
+       5    C04   C804   0.0382 
+       6    C05   C805  -0.1504 
+       7    Cl0  Cl806  -0.0129 
+       8    C07   C807   0.6305 
+       9    O08   O808  -0.4053 
+      10    N09   N809  -0.9637 
+      11    C0A   C810   0.3018 
+      12    C0B   C811  -0.2191 
+      13    C0C   C812   0.0386 
+      14    N0D   N813  -0.3815 
+      15    C0E   C814   0.0398 
+      16    C0F   C815  -0.2572 
+      17    Cl1  Cl816  -0.0474 
+      18    H0H   H817   0.1717 
+      19    H0I   H818   0.1762 
+      20    H0J   H819   0.1791 
+      21    H0K   H820   0.5032 
+      22    H0M   H821   0.1979 
+      23    H0N   H822   0.1836 
+      24    H0O   H823   0.1784 
+      25    H0P   H824   0.1612 
+[bonds]
+     C01      C00
+     C02      C01
+     C03      C02
+     C04      C03
+     C05      C00
+     Cl0      C04
+     C07      C03
+     O08      C07
+     N09      C07
+     C0A      N09
+     C0B      C0A
+     C0C      C0B
+     N0D      C0C
+     C0E      N0D
+     C0F      C0A
+     Cl1      C02
+     H0H      C00
+     H0I      C01
+     H0J      C05
+     H0K      N09
+     H0M      C0B
+     H0N      C0C
+     H0O      C0E
+     H0P      C0F
+     C05      C04
+     C0F      C0E
+[impropers]
+Cl0   C04   C03   C05 
+C07   C03   C02   C04 
+N09   C07   C03   O08 
+C0F   C0A   N09   C0B 
+Cl1   C02   C01   C03 
+H0H   C00   C01   C05 
+H0I   C01   C00   C02 
+H0J   C05   C00   C04 
+H0K   N09   C07   C0A 
+H0M   C0B   C0A   C0C 
+H0N   C0C   C0B   N0D 
+H0O   C0E   N0D   C0F 
+H0P   C0F   C0A   C0E 
+[charge_groups]
+ C00 C01 C02 C03 C04 C05 Cl0 C07 O08 N09 C0A C0B C0C N0D C0E C0F Cl1 H0H H0I H0J H0K H0M H0N H0O H0P
+*------------------------------------------------------------------

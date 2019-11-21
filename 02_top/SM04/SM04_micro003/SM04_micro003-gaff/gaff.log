@@ -1,0 +1,21 @@
+inputfile : SM04_micro003.pdb ; charge : 0
+basename : SM04_micro003.pdb
+charge: 0
+charge : 0
+timestamp : 20171231152601
+Total number of electrons: 140; net charge: 0
+
+Running: /sge/packs/binaries_centos/ambertools/bin/sqm -O -i sqm.in -o sqm.out
+
+before parmchk
+before tleap
+RUNNING AMB2GMX...
+============================================================================
+| ACPYPE: AnteChamber PYthon Parser interfacE v. 0 0 Rev: 0 (c) 2017 AWSdS |
+============================================================================
+Converting Amber input files to Gromacs ...
+==> Writing GROMACS files
+
+==> Writing GMX dihedrals for GMX 4.5 and higher.
+
+Total time of execution: less than a second

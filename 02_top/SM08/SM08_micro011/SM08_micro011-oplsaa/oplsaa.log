@@ -1,0 +1,92 @@
+1 : input pdb SMILES : CC2=CC=C1NC(C(=C(C1=C2)C3=CC=CC=C3)CC(=O)O)=O
+; Script arguments : SM08_micro011.mol2
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass 
+
+       1  opls_148      1      UNK        C1          6    -0.065   12.01100 ; CT # C: CH3, toluene
+       2  opls_145      1      UNK        C2          6    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       3  opls_145      1      UNK        C3         24    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       4  opls_145      1      UNK        C4         26    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       5  opls_266      1      UNK        C5          2     0.085   12.01100 ; CA # ipso C in N-phenylacetamide
+       6  opls_147      1      UNK        C6         12     0.000   12.01100 ; CA # Naphthalene fusion C (C9)
+       7  opls_145      1      UNK        C7         28    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       8  opls_141      1      UNK        C8         16     0.000   12.01100 ; CM # alkene C (R2-C=) 
+       9  opls_141      1      UNK        C9          5     0.000   12.01100 ; CM # alkene C (R2-C=) 
+      10  opls_235      1      UNK       C10          1     0.500   12.01100 ; C # C=O in amide, dmf, peptide bond
+      11  opls_236      1      UNK       O11          1    -0.500   15.99940 ; O # O: C=O in amide.   Acyl R on C in amide is neutral - 
+      12  opls_265      1      UNK       N12          2    -0.385   14.00670 ; N # N: N-phenylacetamide
+      13  opls_241      1      UNK       H13          2     0.300    1.00800 ; H # H on N: secondary amide
+      14  opls_136      1      UNK       C14         20    -0.120   12.01100 ; CT # alkane CH2 
+      15  opls_267      1      UNK       C15          4     0.520   12.01100 ; C # Co in CCOOH carboxylic acid 
+      16  opls_269      1      UNK       O16          4    -0.440   15.99940 ; O_3 # Oc in CCOOH neutral; use #135-#140
+      17  opls_268      1      UNK       O17          4    -0.530   15.99940 ; OH # Oh in CCOOH R in RCOOH is
+      18  opls_147      1      UNK       C18         14     0.000   12.01100 ; CA # Naphthalene fusion C (C9)
+      19  opls_145      1      UNK       C19         30    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      20  opls_145      1      UNK       C20         32    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      21  opls_145      1      UNK       C21         34    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      22  opls_145      1      UNK       C22         36    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      23  opls_145      1      UNK       C23         38    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      24  opls_140      1      UNK       H24          6     0.060    1.00800 ; HC # alkane H.
+      25  opls_140      1      UNK       H25          6     0.060    1.00800 ; HC # alkane H.
+      26  opls_140      1      UNK       H26          6     0.060    1.00800 ; HC # alkane H.
+      27  opls_146      1      UNK       H27         24     0.115    1.00800 ; HA # Benzene H - 12 site.
+      28  opls_146      1      UNK       H28         26     0.115    1.00800 ; HA # Benzene H - 12 site.
+      29  opls_146      1      UNK       H29         28     0.115    1.00800 ; HA # Benzene H - 12 site.
+      30  opls_140      1      UNK       H30         20     0.060    1.00800 ; HC # alkane H.
+      31  opls_140      1      UNK       H31         20     0.060    1.00800 ; HC # alkane H.
+      32  opls_270      1      UNK       H32          4     0.450    1.00800 ; HO # H  in CCOOH
+      33  opls_146      1      UNK       H33         30     0.115    1.00800 ; HA # Benzene H - 12 site.
+      34  opls_146      1      UNK       H34         32     0.115    1.00800 ; HA # Benzene H - 12 site.
+      35  opls_146      1      UNK       H35         34     0.115    1.00800 ; HA # Benzene H - 12 site.
+      36  opls_146      1      UNK       H36         36     0.115    1.00800 ; HA # Benzene H - 12 site.
+      37  opls_146      1      UNK       H37         38     0.115    1.00800 ; HA # Benzene H - 12 site.
+; Total charge : 0.000 ### Number of unassigned atoms : 0/37
+
+Reordered .itp atoms ...
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass
+       1  opls_235      1      UNK       C10          1     0.500   12.01100 ; C # C=O in amide, dmf, peptide bond
+       2  opls_236      1      UNK       O11          1    -0.500   15.99940 ; O # O: C=O in amide.   Acyl R on C in amide is neutral - 
+       3  opls_266      1      UNK        C5          2     0.085   12.01100 ; CA # ipso C in N-phenylacetamide
+       4  opls_265      1      UNK       N12          2    -0.385   14.00670 ; N # N: N-phenylacetamide
+       5  opls_241      1      UNK       H13          2     0.300    1.00800 ; H # H on N: secondary amide
+       6  opls_267      1      UNK       C15          4     0.520   12.01100 ; C # Co in CCOOH carboxylic acid 
+       7  opls_269      1      UNK       O16          4    -0.440   15.99940 ; O_3 # Oc in CCOOH neutral; use #135-#140
+       8  opls_268      1      UNK       O17          4    -0.530   15.99940 ; OH # Oh in CCOOH R in RCOOH is
+       9  opls_270      1      UNK       H32          4     0.450    1.00800 ; HO # H  in CCOOH
+      10  opls_141      1      UNK        C9          5     0.000   12.01100 ; CM # alkene C (R2-C=) 
+      11  opls_148      1      UNK        C1          6    -0.065   12.01100 ; CT # C: CH3, toluene
+      12  opls_145      1      UNK        C2          6    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      13  opls_140      1      UNK       H24          6     0.060    1.00800 ; HC # alkane H.
+      14  opls_140      1      UNK       H25          6     0.060    1.00800 ; HC # alkane H.
+      15  opls_140      1      UNK       H26          6     0.060    1.00800 ; HC # alkane H.
+      16  opls_147      1      UNK        C6         12     0.000   12.01100 ; CA # Naphthalene fusion C (C9)
+      17  opls_147      1      UNK       C18         14     0.000   12.01100 ; CA # Naphthalene fusion C (C9)
+      18  opls_141      1      UNK        C8         16     0.000   12.01100 ; CM # alkene C (R2-C=) 
+      19  opls_136      1      UNK       C14         20    -0.120   12.01100 ; CT # alkane CH2 
+      20  opls_140      1      UNK       H30         20     0.060    1.00800 ; HC # alkane H.
+      21  opls_140      1      UNK       H31         20     0.060    1.00800 ; HC # alkane H.
+      22  opls_145      1      UNK        C3         24    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      23  opls_146      1      UNK       H27         24     0.115    1.00800 ; HA # Benzene H - 12 site.
+      24  opls_145      1      UNK        C4         26    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      25  opls_146      1      UNK       H28         26     0.115    1.00800 ; HA # Benzene H - 12 site.
+      26  opls_145      1      UNK        C7         28    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      27  opls_146      1      UNK       H29         28     0.115    1.00800 ; HA # Benzene H - 12 site.
+      28  opls_145      1      UNK       C19         30    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      29  opls_146      1      UNK       H33         30     0.115    1.00800 ; HA # Benzene H - 12 site.
+      30  opls_145      1      UNK       C20         32    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      31  opls_146      1      UNK       H34         32     0.115    1.00800 ; HA # Benzene H - 12 site.
+      32  opls_145      1      UNK       C21         34    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      33  opls_146      1      UNK       H35         34     0.115    1.00800 ; HA # Benzene H - 12 site.
+      34  opls_145      1      UNK       C22         36    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      35  opls_146      1      UNK       H36         36     0.115    1.00800 ; HA # Benzene H - 12 site.
+      36  opls_145      1      UNK       C23         38    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      37  opls_146      1      UNK       H37         38     0.115    1.00800 ; HA # Benzene H - 12 site.
+; Total charge : 0.000 ### Number of unassigned atoms : 0/37
+
+Processing bonds ...
+Processing angles ...
+Processing proper dihedrals ...
+Processing improper dihedrals ...
+Processing pairs ...
+Processing restraints ...

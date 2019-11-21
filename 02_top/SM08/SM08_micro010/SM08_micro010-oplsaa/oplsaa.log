@@ -1,0 +1,92 @@
+1 : input pdb SMILES : CC2=CC=C1N=C(C(=C(C1=C2)C3=CC=CC=C3)CC(=O)O)O
+; Script arguments : SM08_micro010.mol2 "1 -0.067" "8 0.111" "10 0.603" "12 opls_167" "13 opls_136 0.026" "17 opls_147" "29 opls_168" "30 opls_140" "31 opls_140"
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass 
+
+       1  opls_148      1      UNK        C1         10    -0.067   12.01100 ; CT # C: CH3, toluene ### user-defined atom charge (-0.067)
+       2  opls_608      1      UNK        C2          8    -0.112   12.01100 ; CA # C6  in quinoline
+       3  opls_609      1      UNK        C3          3    -0.070   12.01100 ; CA # C7  in quinoline
+       4  opls_610      1      UNK        C4          4    -0.307   12.01100 ; CA # C8  in quinoline
+       5  opls_611      1      UNK        C5          9     0.563   12.01100 ; CA # C9  in quinoline
+       6  opls_612      1      UNK        C6          9    -0.051   12.01100 ; CA # C10 in quinoline
+       7  opls_607      1      UNK        C7          2    -0.197   12.01100 ; CA # C5  in quinoline
+       8  opls_606      1      UNK        C8          7     0.111   12.01100 ; CA # C4  in quinoline ### user-defined atom charge (0.111)
+       9  opls_605      1      UNK        C9          6    -0.359   12.01100 ; CA # C3  in quinoline
+      10  opls_604      1      UNK       C10          5     0.603   12.01100 ; CA # C2  in quinoline ### user-defined atom charge (0.603)
+      11  opls_603      1      UNK       N11          9    -0.694   14.00670 ; NC # N1  in quinoline
+      12  opls_167      1      UNK       O12         32    -0.585   15.99940 ; OH # O     phenol  atom C, H 145 & 146 ### user-defined OPLS atom type (opls_167)
+      13  opls_136      1      UNK       C13         32     0.026   12.01100 ; CT # alkane CH2  ### user-defined OPLS atom type (opls_136) atom charge (0.026)
+      14  opls_267      1      UNK       C14          1     0.520   12.01100 ; C # Co in CCOOH carboxylic acid 
+      15  opls_269      1      UNK       O15          1    -0.440   15.99940 ; O_3 # Oc in CCOOH neutral; use #135-#140
+      16  opls_268      1      UNK       O16          1    -0.530   15.99940 ; OH # Oh in CCOOH R in RCOOH is
+      17  opls_147      1      UNK       C17         32     0.000   12.01100 ; CA # Naphthalene fusion C (C9) ### user-defined OPLS atom type (opls_147)
+      18  opls_145      1      UNK       C18         22    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      19  opls_145      1      UNK       C19         24    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      20  opls_145      1      UNK       C20         26    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      21  opls_145      1      UNK       C21         28    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      22  opls_145      1      UNK       C22         30    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      23  opls_140      1      UNK       H23         10     0.060    1.00800 ; HC # alkane H.
+      24  opls_140      1      UNK       H24         10     0.060    1.00800 ; HC # alkane H.
+      25  opls_140      1      UNK       H25         10     0.060    1.00800 ; HC # alkane H.
+      26  opls_618      1      UNK       H26          3     0.114    1.00800 ; HA # H7  in quinoline
+      27  opls_619      1      UNK       H27          4     0.157    1.00800 ; HA # H8  in quinoline
+      28  opls_616      1      UNK       H28          2     0.133    1.00800 ; HA # H5  in quinoline
+      29  opls_168      1      UNK       H29         32     0.435    1.00800 ; HO # H     phenol   ### user-defined OPLS atom type (opls_168)
+      30  opls_140      1      UNK       H30         32     0.060    1.00800 ; HC # alkane H. ### user-defined OPLS atom type (opls_140)
+      31  opls_140      1      UNK       H31         32     0.060    1.00800 ; HC # alkane H. ### user-defined OPLS atom type (opls_140)
+      32  opls_270      1      UNK       H32          1     0.450    1.00800 ; HO # H  in CCOOH
+      33  opls_146      1      UNK       H33         22     0.115    1.00800 ; HA # Benzene H - 12 site.
+      34  opls_146      1      UNK       H34         24     0.115    1.00800 ; HA # Benzene H - 12 site.
+      35  opls_146      1      UNK       H35         26     0.115    1.00800 ; HA # Benzene H - 12 site.
+      36  opls_146      1      UNK       H36         28     0.115    1.00800 ; HA # Benzene H - 12 site.
+      37  opls_146      1      UNK       H37         30     0.115    1.00800 ; HA # Benzene H - 12 site.
+; Total charge : 0.000 ### Number of unassigned atoms : 0/37
+
+Reordered .itp atoms ...
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass
+       1  opls_267      1      UNK       C14          1     0.520   12.01100 ; C # Co in CCOOH carboxylic acid 
+       2  opls_269      1      UNK       O15          1    -0.440   15.99940 ; O_3 # Oc in CCOOH neutral; use #135-#140
+       3  opls_268      1      UNK       O16          1    -0.530   15.99940 ; OH # Oh in CCOOH R in RCOOH is
+       4  opls_270      1      UNK       H32          1     0.450    1.00800 ; HO # H  in CCOOH
+       5  opls_607      1      UNK        C7          2    -0.197   12.01100 ; CA # C5  in quinoline
+       6  opls_616      1      UNK       H28          2     0.133    1.00800 ; HA # H5  in quinoline
+       7  opls_609      1      UNK        C3          3    -0.070   12.01100 ; CA # C7  in quinoline
+       8  opls_618      1      UNK       H26          3     0.114    1.00800 ; HA # H7  in quinoline
+       9  opls_610      1      UNK        C4          4    -0.307   12.01100 ; CA # C8  in quinoline
+      10  opls_619      1      UNK       H27          4     0.157    1.00800 ; HA # H8  in quinoline
+      11  opls_604      1      UNK       C10          5     0.603   12.01100 ; CA # C2  in quinoline ### user-defined atom charge (0.603)
+      12  opls_605      1      UNK        C9          6    -0.359   12.01100 ; CA # C3  in quinoline
+      13  opls_606      1      UNK        C8          7     0.111   12.01100 ; CA # C4  in quinoline ### user-defined atom charge (0.111)
+      14  opls_608      1      UNK        C2          8    -0.112   12.01100 ; CA # C6  in quinoline
+      15  opls_611      1      UNK        C5          9     0.563   12.01100 ; CA # C9  in quinoline
+      16  opls_612      1      UNK        C6          9    -0.051   12.01100 ; CA # C10 in quinoline
+      17  opls_603      1      UNK       N11          9    -0.694   14.00670 ; NC # N1  in quinoline
+      18  opls_148      1      UNK        C1         10    -0.067   12.01100 ; CT # C: CH3, toluene ### user-defined atom charge (-0.067)
+      19  opls_140      1      UNK       H23         10     0.060    1.00800 ; HC # alkane H.
+      20  opls_140      1      UNK       H24         10     0.060    1.00800 ; HC # alkane H.
+      21  opls_140      1      UNK       H25         10     0.060    1.00800 ; HC # alkane H.
+      22  opls_145      1      UNK       C18         22    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      23  opls_146      1      UNK       H33         22     0.115    1.00800 ; HA # Benzene H - 12 site.
+      24  opls_145      1      UNK       C19         24    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      25  opls_146      1      UNK       H34         24     0.115    1.00800 ; HA # Benzene H - 12 site.
+      26  opls_145      1      UNK       C20         26    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      27  opls_146      1      UNK       H35         26     0.115    1.00800 ; HA # Benzene H - 12 site.
+      28  opls_145      1      UNK       C21         28    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      29  opls_146      1      UNK       H36         28     0.115    1.00800 ; HA # Benzene H - 12 site.
+      30  opls_145      1      UNK       C22         30    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      31  opls_146      1      UNK       H37         30     0.115    1.00800 ; HA # Benzene H - 12 site.
+      32  opls_167      1      UNK       O12         32    -0.585   15.99940 ; OH # O     phenol  atom C, H 145 & 146 ### user-defined OPLS atom type (opls_167)
+      33  opls_136      1      UNK       C13         32     0.026   12.01100 ; CT # alkane CH2  ### user-defined OPLS atom type (opls_136) atom charge (0.026)
+      34  opls_147      1      UNK       C17         32     0.000   12.01100 ; CA # Naphthalene fusion C (C9) ### user-defined OPLS atom type (opls_147)
+      35  opls_168      1      UNK       H29         32     0.435    1.00800 ; HO # H     phenol   ### user-defined OPLS atom type (opls_168)
+      36  opls_140      1      UNK       H30         32     0.060    1.00800 ; HC # alkane H. ### user-defined OPLS atom type (opls_140)
+      37  opls_140      1      UNK       H31         32     0.060    1.00800 ; HC # alkane H. ### user-defined OPLS atom type (opls_140)
+; Total charge : 0.000 ### Number of unassigned atoms : 0/37
+
+Processing bonds ...
+Processing angles ...
+Processing proper dihedrals ...
+Processing improper dihedrals ...
+Processing pairs ...
+Processing restraints ...

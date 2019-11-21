@@ -1,0 +1,82 @@
+#Remarks LigParGen generated for Q (by Leela Dodda)
+
+{UNK}
+[atoms]
+       1    C00   C800  -0.1569 
+       2    C01   C801  -0.1064 
+       3    C02   C802  -0.1396 
+       4    C03   C803   0.1595 
+       5    C04   C804  -0.1515 
+       6    C05   C805  -0.0913 
+       7    C06   C806   0.4449 
+       8    N07   N807  -0.5371 
+       9    C08   C808   0.2522 
+      10    N09   N809  -0.4478 
+      11    N0A   N810  -0.7072 
+      12    C0B   C811   0.2052 
+      13    C0C   C812  -0.1567 
+      14    C0D   C813  -0.1090 
+      15    C0E   C814  -0.1657 
+      16    C0F   C815   0.0008 
+      17    C0G   C816  -0.1938 
+      18    Cl0  Cl817  -0.0633 
+      19    H0I   H818   0.1602 
+      20    H0J   H819   0.1599 
+      21    H0K   H820   0.1745 
+      22    H0M   H821   0.1616 
+      23    H0N   H822   0.2205 
+      24    H0O   H823   0.4285 
+      25    H0P   H824   0.1690 
+      26    H0Q   H825   0.1614 
+      27    H0R   H826   0.1667 
+      28    H0S   H827   0.1612 
+[bonds]
+     C01      C00
+     C02      C01
+     C03      C02
+     C04      C03
+     C05      C00
+     C06      C04
+     N07      C06
+     C08      N07
+     N09      C03
+     N0A      C06
+     C0B      N0A
+     C0C      C0B
+     C0D      C0C
+     C0E      C0D
+     C0F      C0E
+     C0G      C0B
+     Cl0      C0F
+     H0I      C00
+     H0J      C01
+     H0K      C02
+     H0M      C05
+     H0N      C08
+     H0O      N0A
+     H0P      C0C
+     H0Q      C0D
+     H0R      C0E
+     H0S      C0G
+     C05      C04
+     N09      C08
+     C0G      C0F
+[impropers]
+C06   C04   C03   C05 
+N09   C03   C02   C04 
+N0A   C06   C04   N07 
+C0G   C0B   N0A   C0C 
+Cl0   C0F   C0E   C0G 
+H0I   C00   C01   C05 
+H0J   C01   C00   C02 
+H0K   C02   C01   C03 
+H0M   C05   C00   C04 
+H0N   C08   N07   N09 
+H0O   N0A   C06   C0B 
+H0P   C0C   C0B   C0D 
+H0Q   C0D   C0C   C0E 
+H0R   C0E   C0D   C0F 
+H0S   C0G   C0B   C0F 
+[charge_groups]
+ C00 C01 C02 C03 C04 C05 C06 N07 C08 N09 N0A C0B C0C C0D C0E C0F C0G Cl0 H0I H0J H0K H0M H0N H0O H0P H0Q H0R H0S
+*------------------------------------------------------------------

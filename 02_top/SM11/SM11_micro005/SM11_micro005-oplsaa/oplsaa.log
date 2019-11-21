@@ -1,0 +1,68 @@
+1 : input pdb SMILES : C1=CC=C(C=C1)[N]3=C2N=CN=C(C2=C[N]3)N
+; Script arguments : SM11_micro005.mol2 "4 opls_147" "7 0.242" "22 opls_554" "8 opls_552 0.765" "9 opls_551 -0.662" "12 0.844" "16 opls_900" "24 opls_909" "25 opls_909"
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass 
+
+       1  opls_145      1      UNK        C1          7    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       2  opls_145      1      UNK        C2          9    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       3  opls_145      1      UNK        C3         11    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       4  opls_147      1      UNK        C4          5     0.000   12.01100 ; CA # Naphthalene fusion C (C9) ### user-defined OPLS atom type (opls_147)
+       5  opls_145      1      UNK        C5         13    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       6  opls_145      1      UNK        C6         15    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       7  opls_548      1      UNK        N7          5     0.242   14.00670 ; NA # N1  in pyrazole ### user-defined atom charge (0.242)
+       8  opls_552      1      UNK        C8          3     0.765   12.01100 ; CW # C5  in pyrazole ### user-defined OPLS atom type (opls_552) atom charge (0.765)
+       9  opls_551      1      UNK        C9          3    -0.662   12.01100 ; CA # C4  in pyrazole ### user-defined OPLS atom type (opls_551) atom charge (-0.662)
+      10  opls_550      1      UNK       C10          6     0.246   12.01100 ; CU # C3  in pyrazole
+      11  opls_549      1      UNK       N11          6    -0.491   14.00670 ; NB # N2  in pyrazole
+      12  opls_532      1      UNK       C12          3     0.844   12.01100 ; CA # C4  in pyrimidine ### user-defined atom charge (0.844)
+      13  opls_530      1      UNK       N13          3    -0.839   14.00670 ; NC # N   in pyrimidine
+      14  opls_531      1      UNK       C14          1     0.874   12.01100 ; CQ # C2  in pyrimidine
+      15  opls_530      1      UNK       N15          3    -0.839   14.00670 ; NC # N   in pyrimidine
+      16  opls_900      1      UNK       N16         17    -0.900   14.00670 ; NT # N primary   amines ### user-defined OPLS atom type (opls_900)
+      17  opls_146      1      UNK       H17          7     0.115    1.00800 ; HA # Benzene H - 12 site.
+      18  opls_146      1      UNK       H18          9     0.115    1.00800 ; HA # Benzene H - 12 site.
+      19  opls_146      1      UNK       H19         11     0.115    1.00800 ; HA # Benzene H - 12 site.
+      20  opls_146      1      UNK       H20         13     0.115    1.00800 ; HA # Benzene H - 12 site.
+      21  opls_146      1      UNK       H21         15     0.115    1.00800 ; HA # Benzene H - 12 site.
+      22  opls_554      1      UNK       H22         17     0.072    1.00800 ; HA # H3  in pyrazole ### user-defined OPLS atom type (opls_554)
+      23  opls_534      1      UNK       H23          1    -0.032    1.00800 ; HA # H2  in pyrimidine
+      24  opls_909      1      UNK       H24         17     0.360    1.00800 ; H # H(N)   primary   amines ### user-defined OPLS atom type (opls_909)
+      25  opls_909      1      UNK       H25         17     0.360    1.00800 ; H # H(N)   primary   amines ### user-defined OPLS atom type (opls_909)
+; Total charge : -0.000 ### Number of unassigned atoms : 0/25
+
+Reordered .itp atoms ...
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass
+       1  opls_531      1      UNK       C14          1     0.874   12.01100 ; CQ # C2  in pyrimidine
+       2  opls_534      1      UNK       H23          1    -0.032    1.00800 ; HA # H2  in pyrimidine
+       3  opls_552      1      UNK        C8          3     0.765   12.01100 ; CW # C5  in pyrazole ### user-defined OPLS atom type (opls_552) atom charge (0.765)
+       4  opls_551      1      UNK        C9          3    -0.662   12.01100 ; CA # C4  in pyrazole ### user-defined OPLS atom type (opls_551) atom charge (-0.662)
+       5  opls_532      1      UNK       C12          3     0.844   12.01100 ; CA # C4  in pyrimidine ### user-defined atom charge (0.844)
+       6  opls_530      1      UNK       N13          3    -0.839   14.00670 ; NC # N   in pyrimidine
+       7  opls_530      1      UNK       N15          3    -0.839   14.00670 ; NC # N   in pyrimidine
+       8  opls_147      1      UNK        C4          5     0.000   12.01100 ; CA # Naphthalene fusion C (C9) ### user-defined OPLS atom type (opls_147)
+       9  opls_548      1      UNK        N7          5     0.242   14.00670 ; NA # N1  in pyrazole ### user-defined atom charge (0.242)
+      10  opls_550      1      UNK       C10          6     0.246   12.01100 ; CU # C3  in pyrazole
+      11  opls_549      1      UNK       N11          6    -0.491   14.00670 ; NB # N2  in pyrazole
+      12  opls_145      1      UNK        C1          7    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      13  opls_146      1      UNK       H17          7     0.115    1.00800 ; HA # Benzene H - 12 site.
+      14  opls_145      1      UNK        C2          9    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      15  opls_146      1      UNK       H18          9     0.115    1.00800 ; HA # Benzene H - 12 site.
+      16  opls_145      1      UNK        C3         11    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      17  opls_146      1      UNK       H19         11     0.115    1.00800 ; HA # Benzene H - 12 site.
+      18  opls_145      1      UNK        C5         13    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      19  opls_146      1      UNK       H20         13     0.115    1.00800 ; HA # Benzene H - 12 site.
+      20  opls_145      1      UNK        C6         15    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      21  opls_146      1      UNK       H21         15     0.115    1.00800 ; HA # Benzene H - 12 site.
+      22  opls_900      1      UNK       N16         17    -0.900   14.00670 ; NT # N primary   amines ### user-defined OPLS atom type (opls_900)
+      23  opls_554      1      UNK       H22         17     0.072    1.00800 ; HA # H3  in pyrazole ### user-defined OPLS atom type (opls_554)
+      24  opls_909      1      UNK       H24         17     0.360    1.00800 ; H # H(N)   primary   amines ### user-defined OPLS atom type (opls_909)
+      25  opls_909      1      UNK       H25         17     0.360    1.00800 ; H # H(N)   primary   amines ### user-defined OPLS atom type (opls_909)
+; Total charge : -0.000 ### Number of unassigned atoms : 0/25
+
+Processing bonds ...
+Processing angles ...
+Processing proper dihedrals ...
+Processing improper dihedrals ...
+Processing pairs ...
+Processing restraints ...

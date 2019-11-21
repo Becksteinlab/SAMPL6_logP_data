@@ -1,0 +1,74 @@
+1 : input pdb SMILES : C1=CC(=C(C(=C1)Cl)C(=O)NC2=CC=NC=C2)Cl
+paramList : {10 opls_238}
+paramList : {10 opls_238} {11 0.492}
+paramList : {10 opls_238} {11 0.492} {21 opls_241}
+atomList : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+unmatchedAtom : 10
+unmatchedAtom : 21
+; Script arguments : SM16_micro002.mol2 "10 opls_238" "11 0.492" "21 opls_241"
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass 
+
+       1  opls_145      1      UNK        C1         13    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       2  opls_145      1      UNK        C2         15    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       3  opls_263      1      UNK        C3          5     0.180   12.01100 ; CA # C(Cl)  chlorobenzene
+       4  opls_145      1      UNK        C4          1    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       5  opls_263      1      UNK        C5          3     0.180   12.01100 ; CA # C(Cl)  chlorobenzene
+       6  opls_145      1      UNK        C6         17    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       7  opls_264      1      UNK       Cl7          3    -0.180   35.45300 ; Cl # Cl     chlorobenzene
+       8  opls_234      1      UNK        C8          1     0.615   12.01100 ; C # C: C=O in benzamide
+       9  opls_236      1      UNK        O9          1    -0.500   15.99940 ; O # O: C=O in amide.   Acyl R on C in amide is neutral - 
+      10  opls_238      1      UNK       N10         19    -0.500   14.00670 ; N # N: secondary amide, peptide bond (see #279 for formyl H) ### user-defined OPLS atom type (opls_238)
+      11  opls_523      1      UNK       C11         11     0.492   12.01100 ; CA # C3  in pyridine for ### user-defined atom charge (0.492)
+      12  opls_522      1      UNK       C12         10    -0.447   12.01100 ; CA # C2  in pyridine charges
+      13  opls_521      1      UNK       C13          7     0.473   12.01100 ; CA # C1  in pyridine CHELPG
+      14  opls_520      1      UNK       N14         11    -0.678   14.00670 ; NC # N   in pyridine 6-31G*
+      15  opls_521      1      UNK       C15          8     0.473   12.01100 ; CA # C1  in pyridine CHELPG
+      16  opls_522      1      UNK       C16          9    -0.447   12.01100 ; CA # C2  in pyridine charges
+      17  opls_264      1      UNK      Cl17          5    -0.180   35.45300 ; Cl # Cl     chlorobenzene
+      18  opls_146      1      UNK       H18         13     0.115    1.00800 ; HA # Benzene H - 12 site.
+      19  opls_146      1      UNK       H19         15     0.115    1.00800 ; HA # Benzene H - 12 site.
+      20  opls_146      1      UNK       H20         17     0.115    1.00800 ; HA # Benzene H - 12 site.
+      21  opls_241      1      UNK       H21         19     0.300    1.00800 ; H # H on N: secondary amide ### user-defined OPLS atom type (opls_241)
+      22  opls_525      1      UNK       H22         10     0.155    1.00800 ; HA # H2  in pyridine
+      23  opls_524      1      UNK       H23          7     0.012    1.00800 ; HA # H1  in pyridine 520-619
+      24  opls_524      1      UNK       H24          8     0.012    1.00800 ; HA # H1  in pyridine 520-619
+      25  opls_525      1      UNK       H25          9     0.155    1.00800 ; HA # H2  in pyridine
+; Total charge : -0.000 ### Number of unassigned atoms : 0/25
+
+Reordered .itp atoms ...
+[ atoms ]
+; atomnr  atomtype   resnr  resname  atomname  chargegrp   charge       mass
+       1  opls_145      1      UNK        C4          1    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+       2  opls_234      1      UNK        C8          1     0.615   12.01100 ; C # C: C=O in benzamide
+       3  opls_236      1      UNK        O9          1    -0.500   15.99940 ; O # O: C=O in amide.   Acyl R on C in amide is neutral - 
+       4  opls_263      1      UNK        C5          3     0.180   12.01100 ; CA # C(Cl)  chlorobenzene
+       5  opls_264      1      UNK       Cl7          3    -0.180   35.45300 ; Cl # Cl     chlorobenzene
+       6  opls_263      1      UNK        C3          5     0.180   12.01100 ; CA # C(Cl)  chlorobenzene
+       7  opls_264      1      UNK      Cl17          5    -0.180   35.45300 ; Cl # Cl     chlorobenzene
+       8  opls_521      1      UNK       C13          7     0.473   12.01100 ; CA # C1  in pyridine CHELPG
+       9  opls_524      1      UNK       H23          7     0.012    1.00800 ; HA # H1  in pyridine 520-619
+      10  opls_521      1      UNK       C15          8     0.473   12.01100 ; CA # C1  in pyridine CHELPG
+      11  opls_524      1      UNK       H24          8     0.012    1.00800 ; HA # H1  in pyridine 520-619
+      12  opls_522      1      UNK       C16          9    -0.447   12.01100 ; CA # C2  in pyridine charges
+      13  opls_525      1      UNK       H25          9     0.155    1.00800 ; HA # H2  in pyridine
+      14  opls_522      1      UNK       C12         10    -0.447   12.01100 ; CA # C2  in pyridine charges
+      15  opls_525      1      UNK       H22         10     0.155    1.00800 ; HA # H2  in pyridine
+      16  opls_523      1      UNK       C11         11     0.492   12.01100 ; CA # C3  in pyridine for ### user-defined atom charge (0.492)
+      17  opls_520      1      UNK       N14         11    -0.678   14.00670 ; NC # N   in pyridine 6-31G*
+      18  opls_145      1      UNK        C1         13    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      19  opls_146      1      UNK       H18         13     0.115    1.00800 ; HA # Benzene H - 12 site.
+      20  opls_145      1      UNK        C2         15    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      21  opls_146      1      UNK       H19         15     0.115    1.00800 ; HA # Benzene H - 12 site.
+      22  opls_145      1      UNK        C6         17    -0.115   12.01100 ; CA # Benzene C - 12 site JACS,112,4768-90. Use #145B for biphenyl
+      23  opls_146      1      UNK       H20         17     0.115    1.00800 ; HA # Benzene H - 12 site.
+      24  opls_238      1      UNK       N10         19    -0.500   14.00670 ; N # N: secondary amide, peptide bond (see #279 for formyl H) ### user-defined OPLS atom type (opls_238)
+      25  opls_241      1      UNK       H21         19     0.300    1.00800 ; H # H on N: secondary amide ### user-defined OPLS atom type (opls_241)
+; Total charge : -0.000 ### Number of unassigned atoms : 0/25
+
+Processing bonds ...
+Processing angles ...
+Processing proper dihedrals ...
+Processing improper dihedrals ...
+Processing pairs ...
+Processing restraints ...
