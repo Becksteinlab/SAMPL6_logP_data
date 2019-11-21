@@ -1,10 +1,15 @@
 # Data for SAMPL6 Part II paper
 [![DOI](https://zenodo.org/badge/223044465.svg)](https://zenodo.org/badge/latestdoi/223044465)
+[![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 - **data**: The latest archived version of the data can be found on
   Zenodo by following the DOI on the badge. If you want to refer to
   the data over all versions use DOI
   [10.5281/zenodo.3549988](https://doi.org/10.5281/zenodo.3549988).
+  
+  Data are released under
+  [CC0](http://creativecommons.org/publicdomain/zero/1.0/). Code is released
+  under the MIT license.
 - **paper**: (add full citation when available)
 
   Shujie Fan, Bogdan I. Iorga, Oliver Beckstein. _Prediction of octanol-water
