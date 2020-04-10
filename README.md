@@ -12,10 +12,7 @@
   under the MIT license.
 - **paper**: (add full citation when available)
 
-  Shujie Fan, Bogdan I. Iorga, Oliver Beckstein. _Prediction of octanol-water
-  partition coefficients for the SAMPL6-logP molecules using molecular dynamics
-  simulations with OPLS-AA, AMBER and CHARMM force fields_. J Computer-Aided
-  Molecular Design (2019).
+  S. Fan, B. I. Iorga, and O. Beckstein. _Prediction of octanol-water partition coefficients for the SAMPL6-log P molecules using molecular dynamics simulations with OPLS-AA, AMBER and CHARMM force fields._ Journal of Computer-Aided Molecular Design, 34:543–560, 2020. DOI: [10.1007/s10822-019-00267-z](https://doi.org/10.1007/s10822-019-00267-z)
 
 ## Background
 
