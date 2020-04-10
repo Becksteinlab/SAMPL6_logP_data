@@ -40,6 +40,8 @@ Simulations were set up and managed with
 version, equivalent to commit
 20152ad9723fa5ad9d039362233da07b5fa7811a).
 
+**Note:** _CHARMM simulations_ were performed with the _CHARMM TIP3P water model_ (LJ interactions on hydrogens) whereas AMBER simulations were performed with the standard TIP3P water model. We used the TIP3P input files provided by Gromacs. The paper was not clear on this distinction between the two TIP3P water models.
+
 ## SAMPL6 submission
 
 - Directory `03_prep_submission` contains scripts to generate the
